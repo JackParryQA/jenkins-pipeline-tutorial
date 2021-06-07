@@ -21,7 +21,7 @@ pipeline{
                 stage('Clone repo'){
                         steps{
 //                                 sh "sudo apt-get update"
-                                sh "rm -r chaperootodo_client"
+//                                 sh "rm -r chaperootodo_client"
                                 git branch: 'main', url: 'https://gitlab.com/qacdevops/chaperootodo_client.git'
                         }
                 }
