@@ -20,7 +20,7 @@ pipeline{
         stages{
                 stage('Clone repo'){
                         steps{
-                                sh "sudo apt-get update"
+//                                 sh "sudo apt-get update"
                                 sh "git clone https://gitlab.com/qacdevops/chaperootodo_client.git"
                         }
                 }
